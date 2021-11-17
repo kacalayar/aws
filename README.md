@@ -21,14 +21,14 @@ apt-get update && apt-get upgrade -y && update-grub && reboot
   
   ```html
 
-wget https://raw.githubusercontent.com/syapik96/aws/main/setup.sh 
+wget https://raw.githubusercontent.com/kacalayar/aws/main/setup.sh 
 chmod +x setup.sh 
 ./setup.sh
   ```
 ##    <img src="https://img.shields.io/badge/Install%20Hanya-SSH%2FSSH%20SSL(Stunnel)%20SSH--WS%20Python%20BadVPN--UDPGW-green">
 	 
    ```html
-wget https://raw.githubusercontent.com/syapik96/aws/main/install/sshonly.sh
+wget https://raw.githubusercontent.com/kacalayar/aws/main/install/sshonly.sh
 chmod +x sshonly.sh  
 ./sshonly.sh
   ```
@@ -38,7 +38,7 @@ Info :
  Fork first , then change this .
  Replace all this with your own acc name :
 	     
-> > GitUser="syapik96" 
+> > GitUser="kacalayar" 
 	    
 jika terdapat masalah please pull issue , 
 jika ada kesilapan dlm skrip dia alukan utk betulkan
