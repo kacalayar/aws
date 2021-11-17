@@ -1,4 +1,4 @@
-GitUser="syapik96"
+GitUser="kacalayar"
 #wget https://github.com/${GitUser}/
 if [ "${EUID}" -ne 0 ]; then
 echo "You need to run this script as root"
@@ -26,7 +26,7 @@ echo "IP=$host" >> /var/lib/crot-script/ipvps.conf
 echo "$host" >> /etc/v2ray/domain
 #GitUser="syapik96"
 #wget https://github.com/${GitUser}/
-GitUser="syapik96"
+GitUser="kacalayar"
 #wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/hanyassh.sh && chmod +x hanyassh.sh && screen -S hanyassh.sh ./hanyassh.sh
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
