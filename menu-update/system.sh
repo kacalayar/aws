@@ -109,7 +109,7 @@ case $system in
 		exit
 		;;
 		14)
-		echo -e "\e[1;31m SORRY!!!! Still No Update , Sila semak repo https://github.com/syapik96/aws masa kesemasa\e[0m "
+		echo -e "\e[1;31m SORRY!!!! Still No Update , Sila semak repo https://github.com/kacalayar/aws masa kesemasa\e[0m "
 		sleep 0.5
 		clear
 		system
@@ -129,4 +129,3 @@ case $system in
 		echo -e "\e[1;31mERROR!! Please Enter an Correct Number\e[0m"
 		;;
 	esac
-
