@@ -18,7 +18,7 @@ fi
 sysctl -w net.ipv6.conf.all.disable_ipv6 = 1
 sysctl -w net.ipv6.conf.default.disable_ipv6 = 1
 # set time
-timedatectl set-timezone Asia/Singapore
+timedatectl set-timezone Asia/Jakarta
 apt-get update && apt-get upgrade -y 
 apt install -y bzip2 gzip coreutils screen curl
 apt-get install ruby -y
@@ -54,7 +54,7 @@ sleep 5
 mkdir /etc/v2ray
 mkdir /var/lib/premium-script/
 
-GitUser="syapik96"
+GitUser="kacalayar"
 #wget https://github.com/${GitUser}/
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/tambah/addhost.sh && chmod +x addhost.sh && screen -S addhost.sh ./addhost.sh
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
@@ -128,13 +128,13 @@ echo "   - V2RAY Vless None TLS    : 2052" | tee -a log-install.txt
 echo "   - Trojan                  : 2087" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "   >>> Server Information & Other Features" | tee -a log-install.txt
-echo "   - Timezone                : Asia/Singapore (GMT +8)" | tee -a log-install.txt
+echo "   - Timezone                : Asia/Jakarta (GMT +7)" | tee -a log-install.txt
 echo "   - Fail2Ban                : [ON]" | tee -a log-install.txt
 echo "   - Dflate                  : [ON]" | tee -a log-install.txt
 echo "   - IPtables                : [ON]" | tee -a log-install.txt
 echo "   - Auto-Reboot             : [ON]" | tee -a log-install.txt
 echo "   - IPv6                    : [OFF]" | tee -a log-install.txt
-echo "   - Autoreboot On 00.00(24)-12.00(12) GMT +8" | tee -a log-install.txt
+echo "   - Autoreboot On 00.00(24)-12.00(12) GMT +7" | tee -a log-install.txt
 echo "   - Autobackup Data" | tee -a log-install.txt
 echo "   - Restore Data" | tee -a log-install.txt
 echo "   - Auto Delete Expired Account" | tee -a log-install.txt
@@ -160,4 +160,3 @@ echo " Reboot 10 Saat"
 sleep 10
 rm setup.sh
 reboot
-
